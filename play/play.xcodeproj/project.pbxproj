@@ -14,6 +14,7 @@
 		326579091FC7FCEC00EAE91B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 326579071FC7FCEC00EAE91B /* LaunchScreen.storyboard */; };
 		3265790C1FC7FCEC00EAE91B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3265790B1FC7FCEC00EAE91B /* main.m */; };
 		326579161FC7FCEC00EAE91B /* playUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 326579151FC7FCEC00EAE91B /* playUITests.m */; };
+		326579221FC7FDBE00EAE91B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 326579211FC7FDBE00EAE91B /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		326579111FC7FCEC00EAE91B /* playUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		326579151FC7FCEC00EAE91B /* playUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = playUITests.m; sourceTree = "<group>"; };
 		326579171FC7FCEC00EAE91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		326579201FC7FDBE00EAE91B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		326579211FC7FDBE00EAE91B /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				326578FD1FC7FCEB00EAE91B /* AppDelegate.m */,
 				326578FF1FC7FCEB00EAE91B /* ViewController.h */,
 				326579001FC7FCEB00EAE91B /* ViewController.m */,
+				326579201FC7FDBE00EAE91B /* Person.h */,
+				326579211FC7FDBE00EAE91B /* Person.m */,
 				326579021FC7FCEB00EAE91B /* Main.storyboard */,
 				326579051FC7FCEC00EAE91B /* Assets.xcassets */,
 				326579071FC7FCEC00EAE91B /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 			files = (
 				326579011FC7FCEB00EAE91B /* ViewController.m in Sources */,
 				3265790C1FC7FCEC00EAE91B /* main.m in Sources */,
+				326579221FC7FDBE00EAE91B /* Person.m in Sources */,
 				326578FE1FC7FCEB00EAE91B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
